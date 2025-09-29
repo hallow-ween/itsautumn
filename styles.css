@@ -1,0 +1,12 @@
+
+@keyframes AutumnColorChange {
+  0% {color: #D56C6C;}
+  50% {color: #D59A6C;}
+  75% {color: #D5BB6C;}
+  100% {color: #D56C6C;}
+}
+
+
+b {
+  animation: AutumnColorChange 3s infinite;
+}

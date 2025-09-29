@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="uhh ">
+    <html>
+    <header>
+  <link rel="icon" type="image/x-icon" href="LeafRed.ico">
+
+    <link rel="stylesheet" href="styles.css">
+
+<title>It's Called Autumn!!!</title>
+    </header>
+    <div class="Leaves">
+    <img src="LeafRed.png">
+    </div>
+    <section>
+<h2> It is called <b>autumn </b></h2>
+<p> Not "fall", it is autumn. </p>
+<p> It just sounds way cooler </p>
+<button onclick="autumnChecker()">Check if it is autumn!</button>
+<p id="IsItAutumn"></p>
+    <script>
+    function autumnChecker() {
+    const output = document.getElementById("IsItAutumn");
+
+  
+    const today = new Date();
+    const month = today.getMonth(); 
+    const day = today.getDate();
+
+  
+    const inRange =
+      (month > 8 && month < 11) ||
+      (month === 8 && day >= 22) ||
+      (month === 11 && day <= 21);  
+
+    output.textContent = inRange ? "yes" : "no";
+    }
+    </script>
+
+    </section>
+    
+
+
+    </html> 
