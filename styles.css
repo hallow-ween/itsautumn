@@ -10,3 +10,11 @@
 b {
   animation: AutumnColorChange 3s infinite;
 }
+
+button {
+ padding: 12px;
+ font-size: 12px;
+  font-color: black;
+  background-color: white;
+  border-radius: 8px;
+}
