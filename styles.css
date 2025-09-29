@@ -12,10 +12,10 @@ b {
 }
 
 button {
- border: 5px solid black;
+ border: 1px solid black;
   padding: 12px;
- font-size: 12px;
-  font-color: black;
+  font-size: 12px;
+  color: black;
   background-color: white;
   border-radius: 8px;
 }
