@@ -42,10 +42,11 @@
     const inRange =
       (month >= 8 && month <= 12) ||
       (month === 8 && day >= 22) ||
-      (month === 12 && day <= 21);  
+      (month === 12 && day < 21);  
 
     output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
     }
+            
     </script>
 
     </section>
@@ -62,6 +63,7 @@
     
     
     </html> 
+
 
 
 
