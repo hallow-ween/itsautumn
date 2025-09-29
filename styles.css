@@ -1,3 +1,10 @@
+@font-face {
+  font-family: classyvouge;
+  src: url(Classyvogueregular.ttf);
+}
+
+
+
 
 @keyframes AutumnColorChange {
   0% {color: #D56C6C;}
@@ -9,10 +16,17 @@
 
 b {
   animation: AutumnColorChange 3s infinite;
+  font-family: classyvouge;
 }
+
 
 i {
   animation: AutumnColorChange 3s infinite;
+  font-family: classyvouge;
+}
+
+p {
+  font-family: classyvouge;
 }
 
 button {
