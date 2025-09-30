@@ -41,3 +41,10 @@ window.onload = function () {
     output2.textContent = "Enjoy your time here!";
   }
 };
+
+window.onload =  function theDate() {
+const todaysDate = new Date();
+ const output3 = document.getElementById("Date");
+ output3.textContent = todaysDate;
+
+}
