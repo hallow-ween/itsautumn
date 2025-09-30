@@ -80,5 +80,5 @@ footer p {
 }
 
 #leafRed {
-animation: leafDrop 5s ease-out forwards;
+animation: leafDrop 5s ease-out forwards infinite;
 }
