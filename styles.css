@@ -78,3 +78,7 @@ footer p {
   margin: 0;      
   display: inline; 
 }
+
+#leafRed {
+animation: leafDrop 5s ease-in forwards;
+}
