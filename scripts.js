@@ -27,7 +27,7 @@ function GenerateNum() {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-window.onload = function ChangeMarquee() {
+window.onload = function() {
   const output2 = document.getElementById("scrollingText");
   const newNum = GenerateNum();
 
@@ -42,7 +42,7 @@ window.onload = function ChangeMarquee() {
   }
 };
 
-window.onload =  function theDate() {
+window.onload =  function() {
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
  const todaysDay = todaysDate.getDate();
