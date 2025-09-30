@@ -15,7 +15,7 @@
   
     const inRange =
       (month >= 7 && month <= 11) ||
-      (month === $ && day >= 22) ||
+      (month === 7 && day >= 22) ||
       (month === 11 && day < 21);  
 
     output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
