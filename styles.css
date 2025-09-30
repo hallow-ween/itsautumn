@@ -17,7 +17,8 @@ text-align: right;
   100% {color: #D56C6C;}
 }
 
-@keyframes leafDrop {
+/* this is unused, but will be implemented later */
+@keyframes leafDrop { 
 
   0% {transform: translateY(0px); 
      opacity: 0;
