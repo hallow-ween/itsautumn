@@ -61,6 +61,6 @@ marquee {
  font-family: classyvouge;
 }
 
-.Leaves:active {
+b:active {
 animation: leafDrop 5s ease-in fowards;
 }
