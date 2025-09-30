@@ -23,9 +23,8 @@ text-align: right;
   0% {transform: translateY(0px); 
      opacity: 1;
      }
- 100% {transform: translateY(500px); 
+ 100% {transform: rotate(180deg) translateY(500px); 
       opacity: 0;
-       transform: rotate(180deg);
       }
 }
 
