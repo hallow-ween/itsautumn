@@ -51,6 +51,3 @@ const todaysDate = new Date();
  
 };
 
-document.getElementById('leafButton').addEventListener('click', function () {
-document.getElementById('leafRed').style.animation="leafDrop 5s ease-in forwards";
-}
