@@ -27,7 +27,7 @@ function GenerateNum() {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-window.onload = function () {
+window.onload = function ChangeMarquee() {
   const output2 = document.getElementById("scrollingText");
   const newNum = GenerateNum();
 
