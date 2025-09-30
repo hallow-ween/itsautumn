@@ -44,7 +44,11 @@ window.onload = function () {
 
 window.onload =  function theDate() {
 const todaysDate = new Date();
- const output3 = document.getElementById("Date");
- output3.textContent = todaysDate;
+ const todaysMonth = todaysDate.getMonth() + 1;
+ const todaysDay = todaysDate.getDate();
 
-}
+ 
+ const output3 = document.getElementById("Date");
+ output3.textContent = todaysMonth + "/" + todaysDay;
+
+};
