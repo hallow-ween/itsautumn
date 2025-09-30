@@ -60,7 +60,3 @@ font-family: classyvouge;
 marquee {
  font-family: classyvouge;
 }
-
-.Leaves:active {
-animation: leafDrop 5s ease-in forwards;
-}
