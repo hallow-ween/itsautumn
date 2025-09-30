@@ -44,10 +44,12 @@ window.onload = function() {
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
  const todaysDay = todaysDate.getDate();
+ const weekdays = weekdays["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+ const todaysWeekday = [todaysDate.getDate()];
 
  
  const output3 = document.getElementById("Date");
- output3.textContent = todaysMonth + "/" + todaysDay;
+ output3.textContent = todaysMonth + "/" + todaysDay + ", " todaysWeekday;
  
 };
 
