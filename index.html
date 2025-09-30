@@ -48,26 +48,28 @@
     output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
     }
 
-            window.onload = function GenerateNum(); {
-   const output2 = document.getElementById("scrollingText")  
-   const min = 1;
-   const max = 3;
-Math.floor(Math.random() * (max - min + 1)) + min;
-             }
-            const newNum = GenerateNum();
-    if (newNum == 1) {
-output2.textContent = "Suscribe to the Newsletter!";
+            <script>
+function GenerateNum() {
+  const min = 1;
+  const max = 3;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
-    }
+window.onload = function () {
+  const output2 = document.getElementById("scrollingText");
+  const newNum = GenerateNum();
 
-       if (newNum == 2) {
-output2.textContent = "Put the link in ur bio!"
-    }
+  if (newNum === 1) {
+    output2.textContent = "Subscribe to the Newsletter!";
+  }
+  else if (newNum === 2) {
+    output2.textContent = "Put the link in your bio!";
+  }
+  else if (newNum === 3) {
+    output2.textContent = "Enjoy your time here!";
+  }
+};
 
-       if (newNum == 3) {
-output2.textContent = "Enjoy your time here!"
-
-    }
         
 
 
@@ -91,6 +93,7 @@ output2.textContent = "Enjoy your time here!"
     
     
     </html> 
+
 
 
 
