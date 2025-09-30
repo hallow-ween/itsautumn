@@ -14,9 +14,9 @@
 
   
     const inRange =
-      (month >= 8 && month <= 12) ||
-      (month === 8 && day >= 22) ||
-      (month === 12 && day < 21);  
+      (month >= 7 && month <= 11) ||
+      (month === $ && day >= 22) ||
+      (month === 11 && day < 21);  
 
     output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
     }
@@ -44,9 +44,7 @@ window.onload = function() {
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
  const todaysDay = todaysDate.getDate();
- const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
- const todaysWeekday = weekdays[todaysDate.getDate()];
-
+ 
  
  const output3 = document.getElementById("Date");
  output3.textContent = todaysMonth + "/" + todaysDay + ", " todaysWeekday;
