@@ -72,3 +72,9 @@ width: 100%;
   align-items: center;  
 
 }
+
+
+footer p {
+  margin: 0;      
+  display: inline; 
+}
