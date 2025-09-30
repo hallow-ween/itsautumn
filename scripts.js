@@ -1,4 +1,4 @@
- const waitTwoSeconds = setTimeout(newsletterAlert, 2000);
+ const waitTwoSeconds = setTimeout(newsletterAlert, 2000); // waits to trigger the alerts
      
      function newsletterAlert() {
      alert("Subscribe to the newsletter! (Down below in the footer)")
@@ -21,14 +21,14 @@
     output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
     }
 
-function GenerateNum() {
-  const min = 1;
+// runs all of the marquee and date on the loading of the website
+window.onload = function() {   
+
+   const min = 1;
   const max = 3;
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-window.onload = function() {
-  const output2 = document.getElementById("scrollingText");
+ 
+ const output2 = document.getElementById("scrollingText");
   const newNum = GenerateNum();
 
   if (newNum === 1) {
@@ -51,3 +51,6 @@ const todaysDate = new Date();
  
 };
 
+document.getElementById('leafButton').addEventListener('click', function () {
+document.getElementById('leafRed').style.animation="leafDrop 5s ease-in forwards";
+}
