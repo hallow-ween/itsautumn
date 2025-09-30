@@ -22,28 +22,26 @@
     }
 
 // runs all of the marquee and date on the loading of the website
-window.onload = function() {   
-
-   const min = 1;
+window.onload = function() {
+  const min = 1;
   const max = 3;
-  
- function genNum() {
- return Math.floor(Math.random() * (max - min + 1)) + min;
 
- const newNum = GenerateNum();
- const output2 = document.getElementById("scrollingText");
- 
+  function GenerateNum() {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  const newNum = GenerateNum();
+
+  const output2 = document.getElementById("scrollingText");
 
   if (newNum === 1) {
     output2.textContent = "Subscribe to the Newsletter!";
-  }
-  else if (newNum === 2) {
+  } else if (newNum === 2) {
     output2.textContent = "Put the link in your bio!";
-  }
-  else if (newNum === 3) {
+  } else {
     output2.textContent = "Enjoy your time here!";
   }
- };
+};
 
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
