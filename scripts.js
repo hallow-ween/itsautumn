@@ -40,9 +40,7 @@ window.onload = function() {
   else if (newNum === 3) {
     output2.textContent = "Enjoy your time here!";
   }
-};
 
-window.onload =  function() {
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
  const todaysDay = todaysDate.getDate();
@@ -50,5 +48,6 @@ const todaysDate = new Date();
  
  const output3 = document.getElementById("Date");
  output3.textContent = todaysMonth + "/" + todaysDay;
-
+ 
 };
+
