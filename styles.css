@@ -17,6 +17,16 @@ text-align: right;
   100% {color: #D56C6C;}
 }
 
+@keyframes leafDrop {
+
+  0% {transform: translateY(0px); 
+     opacity: 0;
+     }
+ 100% {transform: translateY(-500px); 
+      opacity: 1;
+      }
+}
+
 
 b {
   animation: AutumnColorChange 3s infinite;
@@ -49,4 +59,8 @@ font-family: classyvouge;
 
 marquee {
  font-family: classyvouge;
+}
+
+.Leaves:active {
+animation: leafDrop 5s ease-in fowards;
 }
