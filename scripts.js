@@ -26,10 +26,13 @@ window.onload = function() {
 
    const min = 1;
   const max = 3;
-  return Math.floor(Math.random() * (max - min + 1)) + min;
- 
+  
+ function genNum() {
+ return Math.floor(Math.random() * (max - min + 1)) + min;
+
+ const newNum = GenerateNum();
  const output2 = document.getElementById("scrollingText");
-  const newNum = GenerateNum();
+ 
 
   if (newNum === 1) {
     output2.textContent = "Subscribe to the Newsletter!";
@@ -40,14 +43,17 @@ window.onload = function() {
   else if (newNum === 3) {
     output2.textContent = "Enjoy your time here!";
   }
+ };
 
 const todaysDate = new Date();
  const todaysMonth = todaysDate.getMonth() + 1;
  const todaysDay = todaysDate.getDate();
- 
+ const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+ const todaysWeekday = weekdays[todaysDate.getDay()];
+
  
  const output3 = document.getElementById("Date");
- output3.textContent = todaysMonth + "/" + todaysDay + ", " todaysWeekday;
+ output3.textContent = todaysMonth + "/" + todaysDay + ", " + todaysWeekday;
  
 };
 
