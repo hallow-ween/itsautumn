@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Are you sick and TIRED of people calling the season 'fall' instead of autumn? Join in the cause, and add this link to your bio! ">
+<script src="scripts.js"></script>
 </head>
 <html>
         <header>
@@ -19,64 +20,6 @@
 <p> The word <i>autumn</i> derives from the Latin word <i>autumnus</i>, which means 'the passing of the year'. <br> the word appeared in the late 1300s as an adaptation of the old french word <i>autumpne</i>. <br> The more common (and inferior) term <i>fall</i> was coined nearly three centuries later. <br> The word autumn was interconnected with harvest, so other than being the original word, it also is associated with the cozy season we love! </p>
 <button onclick="autumnChecker()">Check if it is autumn!</button>
 <u><p id="IsItAutumn">Is it autumn?</p></u>
- <script>
-      const waitTwoSeconds = setTimeout(newsletterAlert, 2000);
-     
-     function newsletterAlert() {
-     alert("Subscribe to the newsletter! (Down below in the footer)")
-      }
-          </script>
-        
-        
-        <script>
-    function autumnChecker() {
-    const output = document.getElementById("IsItAutumn");
-
-  
-    const currentDay = new Date();
-    const month = currentDay.getMonth(); 
-    const day = currentDay.getDate();
-
-  
-    const inRange =
-      (month >= 8 && month <= 12) ||
-      (month === 8 && day >= 22) ||
-      (month === 12 && day < 21);  
-
-    output.textContent = inRange ? "It IS autumn" : "It is NOT autumn :(";
-    }
-
-        </script>
-        <script>
-function GenerateNum() {
-  const min = 1;
-  const max = 3;
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-window.onload = function () {
-  const output2 = document.getElementById("scrollingText");
-  const newNum = GenerateNum();
-
-  if (newNum === 1) {
-    output2.textContent = "Subscribe to the Newsletter!";
-  }
-  else if (newNum === 2) {
-    output2.textContent = "Put the link in your bio!";
-  }
-  else if (newNum === 3) {
-    output2.textContent = "Enjoy your time here!";
-  }
-};
-
-        
-
-
-
-
-
-            
-    </script>
 
     </section>
     
@@ -92,6 +35,7 @@ window.onload = function () {
     
     
     </html> 
+
 
 
 
