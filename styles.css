@@ -84,3 +84,8 @@ footer p {
 #leafRed {
 animation: leafDrop 5s ease-in forwards infinite;
 }
+
+#thanksPage {
+text-align: center;
+
+}
