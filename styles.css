@@ -34,8 +34,13 @@ b {
 
 
 i {
-  animation: AutumnColorChange 3s infinite;
+  
   font-family: classyvouge;
+}
+
+
+#autumnWord {
+animation: AutumnColorChange 3s infinite;
 }
 
 p {
