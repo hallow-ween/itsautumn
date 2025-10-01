@@ -8,7 +8,9 @@ text-align: right;
 
 }
 
-
+* {
+align-items: center;  
+}
 
 @keyframes AutumnColorChange {
   0% {color: #D56C6C;}
