@@ -96,8 +96,8 @@ font-size: 7;
 
 
 .Definition {
-background-color: black;
-border: 1px solid white;
+background-color: white;
+border: 1px solid black;
 border-radius: 8px;
 box-shadow: 2px 5px 5px gray;
 justify-content: space-between; 
