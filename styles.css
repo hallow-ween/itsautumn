@@ -100,5 +100,8 @@ background-color: black;
 border: 1px solid white;
 border-radius: 8px;
 box-shadow: 2px 5px 5px gray;
+justify-content: space-between; 
+align-items: center;  
 }
+
 
