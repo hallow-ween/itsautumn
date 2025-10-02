@@ -105,7 +105,7 @@ box-shadow: 2px 5px 5px gray;
 #Def {
 display: flex;
   align-items: center;   
-  gap: 2px;   
+  gap: 5px;   
 }
 h1 {
 font-size: 30px;
