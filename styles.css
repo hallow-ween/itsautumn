@@ -95,10 +95,10 @@ font-size: 7;
 }
 
 
-.firstTextBox 
-background-color: white;
+.Definition {
+background-color: black;
 border: 1px solid white;
 border-radius: 8px;
-box-shadow: 0 5px 5px gray;
+box-shadow: 2px 5px 5px gray;
 }
 
