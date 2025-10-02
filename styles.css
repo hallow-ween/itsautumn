@@ -102,7 +102,7 @@ border-radius: 8px;
 box-shadow: 2px 5px 5px gray;
 }
 
-.Def {
+#Def {
 display: flex;
   align-items: center;   
   gap: 2px;   
