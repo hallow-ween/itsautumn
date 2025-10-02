@@ -100,8 +100,11 @@ background-color: white;
 border: 1px solid black;
 border-radius: 8px;
 box-shadow: 2px 5px 5px gray;
-justify-content: space-between; 
-align-items: center;  
+verticle-align: center;
+}
+
+h1 {
+font-size: 30px;
 }
 
 
