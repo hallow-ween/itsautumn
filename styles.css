@@ -65,6 +65,7 @@ font-family: classyvouge;
 
 marquee {
  font-family: classyvouge;
+width: 60%;
 }
 
 footer {
@@ -120,3 +121,6 @@ font-size: 30px;
 color: white;
 }
 
+.firstTextBox {
+width: 60%;
+}
