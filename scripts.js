@@ -14,7 +14,7 @@
 
   
     const inRange =
-      (month >= 7 && month <= 11) ||
+      (month >= 8 && month <= 10) ||
       (month === 7 && day >= 22) ||
       (month === 11 && day < 21);  
 
